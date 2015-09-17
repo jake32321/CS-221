@@ -1,0 +1,106 @@
+/* Default CSS for the pages */
+
+/*
+***************************************
+Different css classes will be named and
+sorted accoring to the pages they
+pertain to to make everything easier to
+organize and understand what works w/
+what pages.
+***************************************
+*/
+
+/* Start of the universal CSS*/
+
+h1{
+  color: #fff;
+  text-decoration: underline;
+}
+
+p{
+  font-family: monospace;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+}
+
+nav a{
+  color: #fff;
+}
+
+th{
+  color: #fff;
+  font-size: 30px;
+}
+
+td{
+  font-family: monospace;
+  text-align: center;
+  font-size: 20px;
+  color: #000000;
+}
+/* End of the universal CSS */
+
+/* Start of the CSS for index.html */
+
+.index-body {
+  background: #600;
+  text-align: center;
+  font-style: normal;
+  font-family: monospace;
+  font-size: 30px;
+}
+
+.index-hr {
+  color: #fff;
+}
+
+.index-nav {
+  color: #fff;
+}
+
+/* End of the inex.html CSS */
+
+/* Start of the favorites.html CSS */
+
+.favorites-body {
+  background: #000000;
+}
+
+.favorites-table {
+  text-align: center;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  border: 1;
+}
+
+.favorites-p{
+  font-style: italic;
+  color: #000000;
+}
+
+.favorites-player{
+  width: 100%;
+}
+
+.favorites-img{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.favorites-h1{
+  color: #fff;
+  font-size: 80px;
+  text-align: center;
+}
+
+.favorites-nav{
+  color: #fff;
+  text-align: center;
+  font-style: normal;
+  font-family: monospace;
+  font-size: 30px;
+}
+/* End of the favorties.html CSS */
