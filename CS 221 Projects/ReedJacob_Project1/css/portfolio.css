@@ -151,3 +151,16 @@ td{
   background: #e8e8e8;
 }
 /*End of the contactme.html CSS*/
+/*Start of the coursework.html CSS*/
+
+.coursework_div{
+    color: #fff;
+    text-align: left;
+    background-color: #000000;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/*End of the coursework.html CSS*/
