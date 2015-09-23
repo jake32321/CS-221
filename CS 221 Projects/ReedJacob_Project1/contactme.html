@@ -1,77 +1,84 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Jacob Reed &middot; Contact Me</title>
     <link rel="stylesheet" type="text/css" href="css/portfolio.css">
-  </head>
-  <body class="index-body">
+</head>
+
+<body class="index-body">
     <div>
-      <h1>Contact Me</h1>
-      <nav class="favorites-nav">
-        <a href="JacobReed.html">Return Home</a>
-      </nav>
+        <h1>Contact Me</h1>
+        <nav class="favorites-nav">
+            <a href="JacobReed.html">Return Home</a>
+        </nav>
     </div>
-      <hr>
-      <div>
+    <hr>
+    <div>
         <form action="javascript:window.location='mailto:jacob.reed95@siu.edu?subject=Subject: '
         +document.getElementById('mail_sub').value+'&body='+document.getElementById('user_message').value
-        +'  Phone: '+document.getElementById('phone').value"
-        method="post" enctype="text/plain">
-          <table class="words contact_body">
-            <tr>
-              <td>
-                Name: <br>
-                <input type="text" name="name" required>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                Phone: <br>
-                <input type="text" name="phone" pattern="[0-9]{3}[-][0-9]{3}[-][0-9]{4}" id="phone" required>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                Email:<br>
-                <input type="email" name="email" id="usr_mail" required>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                Email Subject: <br>
-                <input list="subjects" name="mail_sub" id="mail_sub">
-                <datalist id="subjects">
-                  <option value="CS Course Work">CS Course Work</option>
-                  <option value="Resume">Resume</option>
-                  <option value="Job Possition">Job Possition</option>
-                  <option value="Consult Regarding Carbondale Student Life">Consult Regarding Carbondale Student Life</option>
-                  <option value="Consult Regarding SIU">Consult Regarding SIU</option>
-                  <option value="Consult Regarding CS">Consult Regarding CS</option>
-                  <option value="Other">Other</option>
-                </datalist>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                Message: <br>
-                <textarea name="message" rows="8" cols="40" id="user_message">
-                </textarea>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <input type="checkbox" name="CC" onselect="javascript:window.location='mailto:'+document.getElementById('usr_mail').value+'?subject=Subject: '
+        +'  Phone: '+document.getElementById('phone').value" method="post" enctype="text/plain">
+            <table class="words contact_body">
+                <tr>
+                    <td>
+                        Name:
+                        <br>
+                        <input type="text" name="name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Phone:
+                        <br>
+                        <input type="text" name="phone" pattern="[0-9]{3}[-][0-9]{3}[-][0-9]{4}" id="phone" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email:
+                        <br>
+                        <input type="email" name="email" id="usr_mail" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email Subject:
+                        <br>
+                        <input list="subjects" name="mail_sub" id="mail_sub">
+                        <datalist id="subjects">
+                            <option value="CS Course Work">CS Course Work</option>
+                            <option value="Resume">Resume</option>
+                            <option value="Job Possition">Job Possition</option>
+                            <option value="Consult Regarding Carbondale Student Life">Consult Regarding Carbondale Student Life</option>
+                            <option value="Consult Regarding SIU">Consult Regarding SIU</option>
+                            <option value="Consult Regarding CS">Consult Regarding CS</option>
+                            <option value="Other">Other</option>
+                        </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Message:
+                        <br>
+                        <textarea name="message" rows="8" cols="40" id="user_message">
+                        </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="CC" onselect="javascript:window.location='mailto:'+document.getElementById('usr_mail').value+'?subject=Subject: '
                 +document.getElementById('mail_sub').value+'&body='+document.getElementById('user_message').value
                 +'  Phone: '+document.getElementById('phone').value"> Email a copy to yourself.
-              </td>
-            </tr>
-          </table>
-          <div align="left">
-            <input class="submit" type="submit" name="Submit" value="Submit">
-            <input class="submit" type="reset" name="Reset" value="Reset">
-          </div>
+                    </td>
+                </tr>
+            </table>
+            <div align="left">
+                <input class="submit" type="submit" name="Submit" value="Submit">
+                <input class="submit" type="reset" name="Reset" value="Reset">
+            </div>
         </form>
-      </div>
-  </body>
+    </div>
+</body>
+
 </html>
