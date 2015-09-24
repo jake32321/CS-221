@@ -1,0 +1,87 @@
+body{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 0 5px 5px gray;
+  -webkit-box-shadow: 0 0 5px 5px gray;
+  box-shadow: 0 0 5px 5px gray;
+  font-family: Verdana;
+}
+
+h1{
+  background-color: #660000;
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 70px;
+  text-align: center;
+  -moz-box-shadow:  5px 5px 5px gray;
+  -webkit-box-shadow: 5px 5px 5px gray;
+  box-shadow: 5px 5px 5px gray;
+}
+
+h2{
+  color: gray;
+  border-bottom: dotted;
+  padding-bottom: 10px;
+  font-size: 35px;
+  font-family: "Agency FB";
+}
+
+h3{
+  color: #660000;
+}
+
+a{
+  color: gray;
+}
+
+a:visited{
+  color: gray;
+}
+
+a:hover{
+  font-weight: bold;
+  color: #ff0000;
+}
+
+summary{
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px #888;
+  box-shadow: 0 0 5px #888;
+  margin: 2px;
+  padding: 10px;
+  font-weight: bold;
+  color: #660000;
+}
+
+summary:hover{
+  background-color: #d3d3d3;
+}
+
+.sumfirst {
+  font-style: italic;
+  margin-left: 20px;
+  padding: 5px;
+}
+
+.sumsecond{
+  font-style: italic;
+  margin-left: 20px;
+  padding: 5px;
+}
+
+.advisor{
+  color: #d5e3ff;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 12px;
+}
