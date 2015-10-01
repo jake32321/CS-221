@@ -1,0 +1,18 @@
+.list-style-outter ol{
+  list-style-type: upper-roman;
+}
+.list-style-inner ol{
+  list-style-type: upper-alpha;
+}
+.list-style-inner li > ol > li >ol{
+  list-style-type: decimal;
+}
+.sports-list{
+  color: red;
+}
+.middle-list{
+  color: blue;
+}
+.compact-list{
+  color: pink;
+}
